@@ -9,7 +9,7 @@ function confirmar(){
         document.getElementById("valid_mul").style.display="block";
         document.getElementById("valid_mul").innerHTML="PROCESANDO TRANSACCION "
         function graciasfinal(){
-            window.location = "gracias.html"
+            window.location = "transaccion.html"
         
         }
         setTimeout(graciasfinal,2200); 
