@@ -50,6 +50,16 @@ body{
 .arribaespaña{
     text-align: center;
 }
+
+#contraincorrecta{
+    margin-top: 20px;
+    padding-top: 25px;
+    text-align: center;
+    width: 420px;
+    height: 70px;
+    color: rgb(138,0,0);
+    display: none;
+}
 #article1{
     height: 240px;
     display: flex;
@@ -104,6 +114,12 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+}
+.valid_mul{
+    font-size: 20px;
+    font-style: italic;
+    display: none;
+    
 }
 .relleno{
     width: 305px;

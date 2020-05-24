@@ -13,15 +13,24 @@ class Usuario{
 function ok(){
     var user = new Usuario(document.getElementById("caja-password").value)
     if(user.constraseña == constraseña_real){
-        alert("Logeo Correcto");
+        document.getElementById("contraincorrecta").style.display="block";
+        document.getElementById("contraincorrecta").innerHTML="*LOGEO CORRECTO*";
+        
         logeado = true;
         if(logeado){
+           function ok1(){
+
             window.location = "menu.html"
+           }
+           setTimeout(ok1,2200); 
+
         }else{
-            alert("Logeo no admitido");
+            document.getElementById("contraincorrecta").style.display="block";
+            var elemento = document.getElementById("caja-password");
+            elemento.value = "";
         }
     }else{
-        alert("Contraseña Incorrecta!");
+        document.getElementById("contraincorrecta").style.display="block";
         var elemento = document.getElementById("caja-password");
         elemento.value = ""; 
     }

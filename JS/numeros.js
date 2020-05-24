@@ -11,68 +11,79 @@ document.getElementById("n11").addEventListener("click",n11);
 document.getElementById("n12").addEventListener("click",n12);
 
 function n1(){ 
-let sumado = document.getElementById("n1").innerHTML;
-var elemento = document.getElementById("caja-password");
+   document.getElementById("contraincorrecta").style.display="none";
+let sumado = document.getElementById("n1").innerHTML; 
+var elemento = document.getElementById("caja-password"); 
 var value = elemento.value;
-elemento.value = value + sumado;
+elemento.value = value + sumado; 
 }
 function n2(){
-    let sumado = document.getElementById("n2").innerHTML;
-    var elemento = document.getElementById("caja-password");
-    var value = elemento.value;
-    elemento.value = value + sumado;
+   document.getElementById("contraincorrecta").style.display="none";
+   let sumado = document.getElementById("n2").innerHTML; 
+   var elemento = document.getElementById("caja-password"); 
+   var value = elemento.value;
+   elemento.value = value + sumado; 
  }
  function n3(){
-    let sumado = document.getElementById("n3").innerHTML;
-    var elemento = document.getElementById("caja-password");
-    var value = elemento.value;
-    elemento.value = value + sumado;
+   document.getElementById("contraincorrecta").style.display="none";
+   let sumado = document.getElementById("n3").innerHTML; 
+   var elemento = document.getElementById("caja-password"); 
+   var value = elemento.value;
+   elemento.value = value + sumado; 
  }
  function n4(){
-    let sumado = document.getElementById("n4").innerHTML;
-    var elemento = document.getElementById("caja-password");
-    var value = elemento.value;
-    elemento.value = value + sumado;
+   document.getElementById("contraincorrecta").style.display="none";
+   let sumado = document.getElementById("n4").innerHTML; 
+   var elemento = document.getElementById("caja-password"); 
+   var value = elemento.value;
+   elemento.value = value + sumado; 
  }
  function n5(){
-    let sumado = document.getElementById("n5").innerHTML;
-    var elemento = document.getElementById("caja-password");
-    var value = elemento.value;
-    elemento.value = value + sumado;
+   document.getElementById("contraincorrecta").style.display="none";
+   let sumado = document.getElementById("n5").innerHTML; 
+   var elemento = document.getElementById("caja-password"); 
+   var value = elemento.value;
+   elemento.value = value + sumado; 
    }
  function n6(){
-   let sumado = document.getElementById("n6").innerHTML;
-   var elemento = document.getElementById("caja-password");
-   var value = elemento.value;
-    elemento.value = value + sumado;
+   document.getElementById("contraincorrecta").style.display="none";
+let sumado = document.getElementById("n6").innerHTML; 
+var elemento = document.getElementById("caja-password"); 
+var value = elemento.value;
+elemento.value = value + sumado; 
    }
 function n7(){
-   let sumado = document.getElementById("n7").innerHTML;
-   var elemento = document.getElementById("caja-password");
-   var value = elemento.value;
-   elemento.value = value + sumado;
+   document.getElementById("contraincorrecta").style.display="none";
+let sumado = document.getElementById("n7").innerHTML; 
+var elemento = document.getElementById("caja-password"); 
+var value = elemento.value;
+elemento.value = value + sumado; 
    }
 function n8(){
-   let sumado = document.getElementById("n8").innerHTML;
-   var elemento = document.getElementById("caja-password");
+   document.getElementById("contraincorrecta").style.display="none";
+   let sumado = document.getElementById("n8").innerHTML; 
+   var elemento = document.getElementById("caja-password"); 
    var value = elemento.value;
-   elemento.value = value + sumado;
+   elemento.value = value + sumado; 
    }
 function n9(){
-   let sumado = document.getElementById("n9").innerHTML;
-   var elemento = document.getElementById("caja-password");
+   document.getElementById("contraincorrecta").style.display="none";
+   let sumado = document.getElementById("n1").innerHTML; 
+   var elemento = document.getElementById("caja-password"); 
    var value = elemento.value;
-   elemento.value = value + sumado;
+   elemento.value = value + sumado; 
    }
 function n11(){ 
-   let sumado = document.getElementById("n11").innerHTML;
-   var elemento = document.getElementById("caja-password");
+   document.getElementById("contraincorrecta").style.display="none";
+   let sumado = document.getElementById("n11").innerHTML; 
+   var elemento = document.getElementById("caja-password"); 
    var value = elemento.value;
-   elemento.value = value + sumado;
+   elemento.value = value + sumado; 
    }
 function n12(){ 
-   let sumado = document.getElementById("n12").innerHTML;
-   var elemento = document.getElementById("caja-password");
+   document.getElementById("contraincorrecta").style.display="none";
+   let sumado = document.getElementById("n12").innerHTML; 
+   var elemento = document.getElementById("caja-password"); 
    var value = elemento.value;
-   elemento.value = value + sumado;
+   elemento.value = value + sumado; 
    }
